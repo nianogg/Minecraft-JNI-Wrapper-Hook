@@ -1,8 +1,8 @@
-# Minecraft JNI Wrapper
-
 ![C++](https://img.shields.io/badge/language-C++-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+
+# Minecraft JNI Wrapper
 
 simple JNI helper base for minecraft internal clients in C++. it allows you to hook JVM functions and use reflection easily. :deal:
 
@@ -41,3 +41,7 @@ void* JNIHelper::Hook3Hit(void* func) {
     }
     return func;
 }
+
+---
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
