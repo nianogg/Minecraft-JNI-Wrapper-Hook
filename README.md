@@ -13,6 +13,11 @@ simple JNI helper base for minecraft internal clients in C++. it allows you to h
 * **Signature Resolution:** Bypasses static obfuscation using Type Signatures.
 * **Hook3Hit:** Custom JMP instruction bypass for memory hook chains.
 
+## Requirements
+* **Compiler:** MSVC (Visual Studio 2019/2022).
+* **Environment:** x64 architecture.
+* **Dependencies:** Standard Windows SDK, Java Native Interface (JNI) headers.
+
 ## Usage
 
 Initialize the wrapper in your main thread upon injection:
@@ -41,8 +46,3 @@ void* JNIHelper::Hook3Hit(void* func) {
     }
     return func;
 }
-
-## Requirements
-* **Compiler:** MSVC (Visual Studio 2019/2022).
-* **Environment:** x64 architecture.
-* **Dependencies:** Standard Windows SDK, Java Native Interface (JNI) headers.
