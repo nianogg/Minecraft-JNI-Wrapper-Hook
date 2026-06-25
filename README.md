@@ -1,5 +1,9 @@
 # Minecraft JNI Wrapper
 
+![C++](https://img.shields.io/badge/language-C++-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+
 simple JNI helper base for minecraft internal clients in C++. it allows you to hook JVM functions and use reflection easily. :deal:
 
 ## Features
