@@ -42,6 +42,7 @@ void* JNIHelper::Hook3Hit(void* func) {
     return func;
 }
 
----
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Requirements
+* **Compiler:** MSVC (Visual Studio 2019/2022).
+* **Environment:** x64 architecture.
+* **Dependencies:** Standard Windows SDK, Java Native Interface (JNI) headers.
